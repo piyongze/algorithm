@@ -15,7 +15,7 @@ public class BubbleSort<T extends Comparable> extends AbstractSort<T>{
 		T temp;
 		for(int i=0;i<param.size()-1;i++){
 			flag=0;
-			for(int j=0;j<param.size()-2;j++){
+			for(int j=0;j<param.size()-i-2;j++){
 				if(param.get(j).compareTo(param.get(j+1))>0){
 					temp=param.get(j);
 					param.set(j, param.get(j+1));
