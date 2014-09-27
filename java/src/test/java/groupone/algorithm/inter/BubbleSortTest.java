@@ -9,8 +9,14 @@ import groupone.algorithm.BubbleSort;
 
 import org.junit.Before;
 import org.junit.Test;
+
+/**
+ * 冒泡排序测试实例
+ * @author yongze
+ *
+ */
 @SuppressWarnings("rawtypes")
-public class AbstractSortTest {
+public class BubbleSortTest {
 
 	
 	private AbstractSort abstractSort;

@@ -4,6 +4,12 @@ import java.util.List;
 
 import groupone.algorithm.inter.AbstractSort;
 
+/**
+ * 冒泡排序
+ * @author yongze
+ *
+ * @param <T>
+ */
 @SuppressWarnings("rawtypes")
 public class BubbleSort<T extends Comparable> extends AbstractSort<T>{
 
