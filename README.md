@@ -1,4 +1,2 @@
-just for study.
-give your algorithm.
-I am god
-who add it
+算法
+java和c++分别实现
